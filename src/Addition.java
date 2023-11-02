@@ -12,5 +12,13 @@ public class Addition {
 
         int sum = first + second;
         System.out.println("The total is: " + sum);
+
+        System.out.println("Continue? \n1 to return to menu \n2 for more addition \n0 to exit");
+        if (input.nextInt() == 2) {
+            Addition.addition();
+        } else if (input.nextInt() == 0) {
+            input.close();
+
+        }
     }
 }
