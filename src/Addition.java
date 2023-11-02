@@ -5,12 +5,12 @@ public class Addition {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Addition: \nPlease enter a number: ");
-        int first = input.nextInt();
+        double first = input.nextDouble();
 
         System.out.println("Please enter another number: ");
-        int second = input.nextInt();
+        double second = input.nextDouble();
 
-        int sum = first + second;
+        double sum = first + second;
         System.out.println("The total is: " + sum);
 
         System.out.println("Continue? \n1 to return to menu \n2 for more addition \n0 to exit");
