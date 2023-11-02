@@ -14,11 +14,17 @@ public class Addition {
         System.out.println("The total is: " + sum);
 
         System.out.println("Continue? \n1 to return to menu \n2 for more addition \n0 to exit");
-        if (input.nextInt() == 2) {
-            Addition.addition();
-        } else if (input.nextInt() == 0) {
-            input.close();
 
-        }
+       switch (input.nextInt()) {
+           case 1:
+               Main.main(null);
+               break;
+           case 2:
+               Addition.addition();
+               break;
+           case 0:
+               input.close();
+               break;
+       }
     }
 }
