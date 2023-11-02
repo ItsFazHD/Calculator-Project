@@ -13,7 +13,7 @@ public class Addition {
         double sum = first + second;
         System.out.println("The total is: " + sum);
 
-        System.out.println("Continue? \n1 to return to menu \n2 for more addition \n0 to exit");
+        System.out.println("Continue? \n1 to return to menu \n2 to continue addition \n0 to exit");
 
        switch (input.nextInt()) {
            case 1:
