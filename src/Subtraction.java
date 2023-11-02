@@ -13,7 +13,7 @@ public class Subtraction {
         double sum = first - second;
         System.out.println("The total is: " + sum);
 
-        System.out.println("Continue? \n1 to return to menu \n to continue subtraction \n0 to exit");
+        System.out.println("Continue? \n1 to return to menu \n2 to continue subtraction \n0 to exit");
 
         switch (input.nextInt()) {
             case 1:
