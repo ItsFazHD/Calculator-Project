@@ -24,6 +24,7 @@ public class Division {
                 break;
             case 0:
                 input.close();
+                System.out.println("Thank you for using FazHD's calculator");
                 break;
         }
     }
