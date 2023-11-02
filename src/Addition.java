@@ -11,7 +11,7 @@ public class Addition {
         double second = input.nextDouble();
 
         double sum = first + second;
-        System.out.println("The total is: " + sum);
+        System.out.println("Total is: " + sum);
 
         System.out.println("Continue? \n1 Return to menu \n2 Continue addition \n0 Exit");
 
